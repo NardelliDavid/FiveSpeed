@@ -1,5 +1,5 @@
 # FiveSpeed
-FiveSpeed es una página web ficticia diseñada para simular un proveedor de servicios de internet. El objetivo principal de esta plataforma es ofrecer información detallada sobre los servicios de internet disponibles, así como facilitar el proceso de registro y contacto para los usuarios interesados.
+FiveSpeed es una página web ficticia diseñada para simular un proveedor de servicios de internet. El objetivo principal de esta plataforma es ofrecer información detallada sobre los servicios de internet disponibles.
 
 ------------
 
