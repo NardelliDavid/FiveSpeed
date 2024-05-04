@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="icons/internet_speed_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>FiveSpeed</title>
+</head>
+<body>
+    <header>
+        <h1><img src="icons/internet_speed_icon.png">FiveSpeed</h1>
+        <img width="50px" height="50px" onclick="openMenu()" src="icons/bars-solid.svg" class="menu-icon">
+    </header>
+
+    <main>
+        <a href="#inicio-1">Inicio</a>
+        <a href="#porque-2">¿Porque FiveSpeed?</a>
+        <a href="#planes-3">Planes</a>
+        <a href="#nosotros-4">Nosotros</a>
+        <a href="#contactenos-5">Contactenos</a>
+    </main>
+
+    <section id="inicio-1">
+
+        <div class="slider">
+            <img src="icons/icono-flecha.png" class="flecha-izquierda" onclick="MoverIzquierda()">
+            <div>
+                <img name="Imagenes" id="slider-imgs">
+            </div>
+            <img src="icons/icono-flecha.png" class="flecha-derecha" onclick="MoverDerecha()">
+        </div>
+        
+        <div class="div-inicio">
+            <img src="icons/internet_speed_icon.png" class="logo-speed-icon">
+            <p>Contratá <b>FiveSpeed</b> y disfrutá tus actividades favoritas en internet
+            <b>cinco veces más rápido</b> que con cualquier otro proveedor.</p>
+        </div>
+    </section>
+
+    <section id="porque-2">
+            <h2>¿Por qué <b>FiveSpeed</b>?</h2>
+            <p>Mirá la infografía y conocé todos los beneficios que tenés contratando
+            fibra óptica de alta velocidad</p>
+            <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="video">
+                <img src="icons/youtube.svg">
+            </a>
+    </section>
+
+    <section id="planes-3">
+            <h3>Planes</h3>
+            <p class="p-1">¿Buscás un plan que se ajuste a tus necesidades?<br>
+            Chequeá las características de cada uno y contratalo ahora!</p>
+            <p class="p-2">¡A PARTIR DE LOS 100MB TE BRINDAMOS UN CANAL DE 
+            PELÍCULAS Y SERIES QUE ES GRATUITO!</p>
+        <div class="columns-grid-div">
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">25</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 25MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 6500</p>
+                    <button class="button-hire-now" onclick="redireccionar(25)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">50</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 50MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 8000</p>
+                    <button class="button-hire-now" onclick="redireccionar(50)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">100</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 100MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 9500</p>
+                    <button class="button-hire-now" onclick="redireccionar(100)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">150</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 150MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 11000</p>
+                    <button class="button-hire-now" onclick="redireccionar(150)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">300</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 300MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 12500</p>
+                    <button class="button-hire-now" onclick="redireccionar(300)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">500</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 500MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 15000</p>
+                    <button class="button-hire-now" onclick="redireccionar(500)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">1000</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 1000MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 20000</p>
+                    <button class="button-hire-now" onclick="redireccionar(1000)">Contratar ahora</button>
+                </div>
+            </div>
+
+            <div class="box-plan-fibra">
+                <div class="speed-mb">
+                    <p class="number-of-mb">5000</p><p class="p-mb">MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Velocidad de descarga de hasta 5000MB</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Es 100% Fibra Optica</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Incluye un Router Wi-Fi</p>
+                </div>
+                <div class="stats-of-internet-service">
+                    <p>Atencion al cliente y soporte tecnico</p>
+                </div>
+                <div class="hire-service-and-price">
+                    <p class="price-of-the-service">$ 50000</p>
+                    <button class="button-hire-now" onclick="redireccionar(5000)">Contratar ahora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros-4">
+            <p><b>FiveSpeed</b> es el primer Internet FTTH de Zona Sur, 
+                que ofrece un desempeño único en su categoría. Velocidad incomparable, 
+                para que su vida en la red sea la mejor experiencia, porque tiene <b>fibra 
+                    óptica hasta el hogar</b> con la menor compartición,
+                velocidades inalcanzables y personal comprometido con ese ritmo de vida.</p>
+            <h4>Mision</h4>
+            <p>Mejorar la calidad de vida de nuestros clientes 
+                facilitando el acceso a la información, por medio de la provisión 
+                de servicios digitales integrados, apoyados en una constante innovación 
+                tecnológica y un recurso humano altamente calificado y motivado, 
+                contribuyendo así con el desarrollo de la Sociedad 
+                de la Información en el país.</p>
+            <h5>Vision</h5>
+            <p>Ser la organización líder en innovación tecnológica, 
+                facilitadora acceso a la información y conocimiento a través 
+                de la provisión de soluciones digitales integradas, producto de la calidad, 
+                excelencia y compromiso de su gente, 
+                fomentando las relaciones a largo plazo con nuestros clientes.</p>
+    </section>
+
+    <section id="contactenos-5">
+            <h6>Contactenos</h6>
+            <p class="texto-consulta">Hacenos tu consulta y te contestaremos en breve.</p>
+            <form id="formulario">
+                <div class="divs-inputs">
+                    <label for="nombre"><img src="icons/icono-usuario.png"></label>
+                    <input type="text" name="name" placeholder="Nombre y apellido" id="name" required>
+                </div>
+                <div class="divs-inputs">
+                    <label for="mail"><img src="icons/icono-correo.png"></label>
+                    <input type="email" name="mail" placeholder="Email" id="mail" required>
+                </div>
+                <div class="divs-inputs">
+                    <label for="telephone"><img src="icons/icono-teléfono.png"></label>
+                    <input type="tel" name="telephone" placeholder="Telefono" id="telephone" required>
+                </div>
+                <div class="divs-inputs">
+                    <label for="house"><img src="icons/icono-casa.png"></label>
+                    <input type="text" name="house" placeholder="Direccion"> 
+                </div>
+                <div class="divs-inputs">
+                    <label for="location"><img src="icons/icono-ubicacion.png"></label>
+                    <input type="text" name="location" placeholder="Localidad">
+                </div>
+                <div class="divs-inputs">
+                    <label for="title"><img src="icons/icono-mensaje.png"></label >
+                    <input type="text" name="title" placeholder="Asunto">
+                </div>
+                <div class="divs-inputs">
+                    <label for="message"><img src="icons/icono-hoja-de-papel.png"></label>
+                    <textarea name="message" cols="30" rows="10" placeholder="Mensaje" id="message" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>   
+    </section>
+
+    <footer>
+            <p class="number-of-soport">Numero de soporte: <br>0800-4452-456</p>
+            <p class="mail-of-soport">Direccion de Email: <br>soporte@fivespeed.com</p>  
+            <p class="seguinos">
+                <a href="#"><img src="icons/facebook-icon.png"></a>
+                <a href="#"><img src="icons/telegram-icon.png"></a>
+            </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

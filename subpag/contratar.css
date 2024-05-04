@@ -1,0 +1,86 @@
+body {
+    background: rgb(73, 73, 73);
+    margin: 0;
+}
+#formulario {
+    width: 90%;
+    max-width: 450px;
+    background: rgba(49, 49, 49, 0.568);
+    border: 1px solid rgb(0, 139, 7);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#formulario p {
+    margin: 0;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    background: rgba(0, 255, 0, 0.062);
+    border-bottom: 1px solid rgb(0, 139, 7);
+}
+.divs-inputs-contratar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    width: 85%;
+    margin-top: 25px;
+    box-shadow: 0px 0px 5px black;
+}
+.divs-inputs-contratar img {
+    width: 30px;
+    margin: 5px;
+}
+.divs-inputs-contratar input {
+    background: none;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    margin: 5px;
+    outline: none;
+}
+.divs-inputs-contratar textarea {
+    width: 100%;
+    font-size: 20px;
+    border: none;
+    margin: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    resize: none;
+    outline: none;
+}
+button {
+    cursor: pointer;
+    margin: 20px 0px 20px 0px;
+    background: rgba(0, 0, 0, 0.315);
+    color: rgb(0, 231, 12);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 30px;
+    border: 2px solid rgb(0, 231, 12);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: 0.4s ease;
+    box-shadow: 0px 0px 5px black;
+}
+button:hover {
+    color: black;
+    background: rgb(0, 231, 12);
+    font-weight: bold;
+}

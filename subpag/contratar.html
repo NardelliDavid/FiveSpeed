@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="../icons/internet_speed_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="contratar.css">
+    <title>FiveSpeed | Contratar</title>
+</head>
+<body>
+        <form action="#" method="post" id="formulario">
+            <p>Complete el siguiente formulario de contacto y 
+                nos comunicaremos a la 
+                brevedad para brindarle más información acerca del plan de <b id="mb-cantidad"></b></p>
+            <div class="divs-inputs-contratar">
+                <label for="nombre"><img src="../icons/icono-usuario.png"></label>
+                <input type="text" name="name" placeholder="Nombre y apellido" required>
+            </div>
+            <div class="divs-inputs-contratar">
+                <label for="mail"><img src="../icons/icono-correo.png"></label>
+                <input type="email" name="mail" placeholder="Email" required>
+            </div>
+            <div class="divs-inputs-contratar">
+                <label for="telephone"><img src="../icons/icono-teléfono.png"></label>
+                <input type="tel" name="telephone" placeholder="Telefono" required>
+            </div>
+            <div class="divs-inputs-contratar">
+                <label for="location"><img src="../icons/icono-ubicacion.png"></label>
+                <input type="text" name="location" placeholder="Localidad">
+            </div>
+            <div class="divs-inputs-contratar">
+                <label for="message"><img src="../icons/icono-hoja-de-papel.png"></label>
+                <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit">Contratar</button>
+        </form>
+
+        <script src="script-contratar.js"></script>
+</body>
+</html>

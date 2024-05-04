@@ -1,0 +1,361 @@
+@media (max-width: 410px) {
+
+    /* Section 1 Styles: #inicio-1 */
+
+    #slider-imgs {
+       height: 250px;
+    }
+    .div-inicio {
+        padding: 0px 25px 25px 25px;
+    }
+    .logo-speed-icon {
+        margin-top: 0px;
+    }
+
+    /* Section 2 Styles: #porque-2 */
+
+    .video {
+        width: 350px;
+    }
+
+    /* Section 3 Styles: #planes-3 */
+
+    .p-1 {
+        padding: 0px 15px 0px 15px;
+    }
+
+    /*Tarjeta del plan internet*/
+
+    .box-plan-fibra {
+        width: 320px;
+    }
+    .stats-of-internet-service p {
+        font-size: 22px;
+    }
+}
+@media (min-width: 420px) {
+    /* Section 2 Styles: #porque-2 */
+
+    .video {
+        width: 350px;
+    }
+}
+@media (min-width: 560px) {
+
+    /*Menu Styles*/
+
+    main {
+        width: 250px;
+        left: auto;
+        right: 0px;
+        border-left: 1px solid rgb(0, 255, 21);
+        border-radius: 0px 0px 0px 10px;
+    }
+
+    /* Section 1 Styles: #inicio-1 */
+
+    #slider-imgs {
+        width: 450px;
+        height: 250px;
+        position: relative;
+        border: none;
+        border-radius: 5px;
+        top: 0px;
+     }
+    .flecha-izquierda {
+        border-radius: 0px 10px 10px 0px;
+        width: 30px;
+        position: relative;
+        left: auto;
+        border: 1px solid rgb(0, 255, 0);
+        border-left: 0;
+    }
+    .flecha-derecha {
+        border-radius: 0px 10px 10px 0px;
+        width: 30px;
+        position: relative;
+        right: auto;
+        border: 1px solid rgb(0, 255, 0);
+        border-left: 0;
+    }
+
+}
+@media (min-width: 900px) {
+
+    /* Header Styles */
+
+    .menu-icon {
+        display: none;
+    }
+
+    /*Menu Styles*/
+
+    main {
+        border: none;
+        background: none;
+        justify-content: end;
+        flex-direction: row;
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        gap: 25px;
+        z-index: 10;
+        transform: translateY(0%);
+        width: auto;
+        height: auto;
+    }
+    main a {
+        font-size: 20px;
+        border-bottom: 3px solid transparent;
+        padding: 5px 0px 5px 0px;
+    }
+    main a:hover {
+        border-bottom: 3px solid greenyellow;
+    }
+
+
+    /* Section 1 Styles: #inicio-1 */
+
+    .slider {
+        zoom: 120%;
+    }
+
+    /* Sectino 3 Styles: #planes-3 */
+
+    .columns-grid-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .box-plan-fibra {
+        margin: 0;
+    }
+}
+@media (min-width: 1150px) {
+    
+    /*Menu Styles*/
+
+    main {
+        top: 2px;
+        right: 20px;
+        gap: 30px;
+    }
+    main a {
+        font-size: 25px;
+        padding: 5px 0px 5px 0px;
+    }
+    /* Section 1 Styles: #inicio-1 */
+
+    .slider {
+        zoom: 130%;
+    }
+
+    .div-inicio p {
+        font-size: 25px;
+        padding: 0px 40px 0px 40px;
+    }
+
+    /* Section 2 Styles: #porque-2 */
+
+    #porque-2 p {
+        font-size: 25px;
+        padding: 0px 50px 0px 50px;
+    }
+    .video {
+        height: 270px;
+        width: 420px;
+    }
+
+    /* Sectino 3 Styles: #planes-3 */
+
+    h3 {
+        font-size: 40px;
+    }
+    .p-1, .p-2 {
+        font-size: 25px;
+        padding: 0px 50px 0px 50px;
+    }
+    .columns-grid-div {
+        grid-gap: 100px;
+        margin-bottom: 100px;
+    }
+
+    /*Section 4 Styles: #nosotros-4 */
+
+    #nosotros-4 p {
+        font-size: 25px;
+        margin: 50px;
+    }
+    h4, h5 {
+        font-size: 40px;
+    }
+
+    /*Section 5 Styles: #contactenos-5 */
+
+    .texto-consulta {
+        font-size: 30px;
+    }
+    h6 {
+        font-size: 40px;
+    }
+
+    /* Footer Styles*/
+
+    .number-of-soport, .mail-of-soport, .seguinos {
+        font-size: 30px;
+    }
+    .seguinos a img {
+        width: 40px;
+    }
+}
+@media (min-width: 1200px) {
+
+    /* Section 1 Styles: #inicio-1 */
+
+    .slider {
+        zoom: 140%;
+    }
+}
+@media (min-width: 1366px) {
+
+    /* Section 1 Styles: #inicio-1 */
+
+    .slider {
+        zoom: 160%;
+    }
+
+    /* Section 4 Styles: #nosotros-4 */
+
+    .columns-grid-div {
+        grid-gap: 70px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .box-plan-fibra {
+        width: 400px;
+    }
+}
+@media (min-width: 1500px) {
+
+    /* General Styles */
+
+    section[id] {
+        scroll-margin-top: 100px;
+    }
+
+    /* Header Styles */
+
+    header {
+        height: 100px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h1 img {
+        width: 60px;
+    }
+    .menu-icon {
+        display: none;
+    }
+
+    /*Menu Styles*/
+
+    main {
+        top: 10px;
+        right: 40px;
+        gap: 50px;
+    }
+    main a {
+        font-size: 25px;
+        padding: 10px 0px 10px 0px;
+    }
+
+    /* Section 1 Styles: #inicio-1 */
+
+    #inicio-1 {
+        margin-top: 120px;
+    }
+    .slider {
+        zoom: 200%;
+    }
+    .div-inicio p {
+        font-size: 28px;
+        padding: 0px 15% 0px 15%;
+    }
+    .logo-speed-icon {
+        width: 100px;
+    }
+
+    /* Section 2 Styles: #porque-2 */
+
+    h2 {
+        font-size: 33px;
+    }
+    #porque-2 p {
+        font-size: 28px;
+        padding: 0px 15% 0px 15%;
+    }
+
+    /* Sectino 3 Styles: #planes-3 */
+
+    h3 {
+        font-size: 33px;
+    }
+    .p-1, .p-2 {
+        font-size: 28px;
+        padding: 0px 15% 0px 15%;
+    }
+    .columns-grid-div {
+        grid-gap: 150px;
+        margin-bottom: 150px;
+    }
+    .box-plan-fibra {
+        zoom: 120%;
+    }
+
+    /*Section 4 Styles: #nosotros-4 */
+
+    #nosotros-4 p {
+        font-size: 28px;
+        margin: 50px 15% 50px 15%;
+    }
+    h4, h5 {
+        font-size: 40px;
+    }
+
+    /*Section 5 Styles: #contactenos-5 */
+
+    h6 {
+        font-size: 35px;
+    }
+    .texto-consulta {
+        font-size: 28px;
+    }
+    .divs-inputs img {
+        width: 40px;
+    }
+    .divs-inputs input, .divs-inputs textarea {
+        font-size: 20px;
+    }
+    #formulario {
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    #formulario button {
+        zoom: 110%;
+    }
+    
+    /* Footer Styles*/
+
+    footer {
+        height: auto;
+    }
+    .number-of-soport, .mail-of-soport, .seguinos {
+        font-size: 30px;
+    }
+    .seguinos a img {
+        width: 50px;
+    }
+}
