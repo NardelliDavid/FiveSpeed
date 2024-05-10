@@ -84,3 +84,29 @@ button:hover {
     background: rgb(0, 231, 12);
     font-weight: bold;
 }
+
+/* Responsive */
+
+@media (max-height: 850px) {
+    #formulario {
+        max-height: 95%;
+    }
+    textarea {
+        height: 200px;
+    }
+}
+@media (max-height: 780px) {
+    #formulario {
+        zoom: 90%;
+    }
+}
+@media (max-height: 700px) {
+    #formulario {
+        zoom: 80%;
+    }
+}
+@media (max-height: 630px) {
+    #formulario {
+        zoom: 75%;
+    }
+}
