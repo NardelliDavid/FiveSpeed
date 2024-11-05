@@ -29,4 +29,3 @@ FiveSpeed es una página web ficticia diseñada para simular un proveedor de ser
 ### Contacto
 - **Email: nardellidavid611@gmail.com**
 
-- **Github: https://github.com/macheting**
